@@ -1,0 +1,8 @@
+streamlit>=1.40,<2
+python-dotenv>=1,<2
+langchain>=1,<2
+langchain-openai>=1,<2
+langchain-chroma>=1,<2
+langchain-community>=0.4,<1
+langchain-text-splitters>=1,<2
+pdfplumber>=0.11,<1
