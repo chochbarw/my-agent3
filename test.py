@@ -48,7 +48,7 @@ h1,h2,h3 { color: #20245a !important; letter-spacing: -.045em; }
 @media(max-width:640px) { .welcome h1 { font-size: 25px; } .welcome { padding: 24px; } }
 </style>
 """, unsafe_allow_html=True)
-st.markdown('<div class="brand">영은 상담소<span>직장 내 괴롭힘 예방·대응 안내</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="brand">이영은 노무사 상담소<span>직장 내 괴롭힘 예방·대응 안내</span></div>', unsafe_allow_html=True)
 illustration = Path(__file__).resolve().parent / "assets" / "workplace_umbrella.png"
 image_html = ""
 if illustration.is_file():
@@ -82,9 +82,9 @@ DB_ROOT = BASE_DIR / "chroma_db"
 EMBEDDING_MODEL = "text-embedding-3-large"
 
 with st.sidebar:
-    st.header("영은 상담소")
+    st.header("이영은 노무사 상담소")
     st.write("직장 내 괴롭힘 예방·대응 매뉴얼 (2026년 7월)")
-    model_name = "gpt-5.5"
+    model_name = "gpt-5.4-mini"
     st.caption("겪으신 상황과 시기, 상대방과의 관계를 함께 알려주시면 더 구체적으로 안내할 수 있어요.")
     with st.expander("사용 및 데이터 안내"):
         st.caption("질문과 검색한 문서 내용은 OpenAI API로 전송됩니다. API 사용료가 발생하며 이 대화는 법률 자문을 대신하지 않습니다.")
