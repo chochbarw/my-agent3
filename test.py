@@ -6,7 +6,7 @@ from pathlib import Path
 import streamlit as st
 from dotenv import load_dotenv
 
-st.set_page_config(page_title="영은 상담소 | 직장 내 괴롭힘 상담", page_icon="💬", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="이영은 노무사 상담소 | 직장 내 괴롭힘 상담", page_icon="💬", layout="wide", initial_sidebar_state="collapsed")
 st.markdown("""
 <style>
 .stApp { background: #f7fafc; color: #252941; }
